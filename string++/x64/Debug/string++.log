@@ -1,0 +1,20 @@
+﻿  string++.cpp
+C:\Users\User\source\repos\string++\string++.cpp(112,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\algorithm(3186,22): error C2677: бинарный "==": не найден глобальный оператор, принимающий тип "const _Ty" (или приемлемое преобразование отсутствует)
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Users\User\source\repos\string++\string++.cpp(51): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::replace<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,std::string>(const _FwdIt,const _FwdIt,const _Ty &,const _Ty &)"
+          with
+          [
+              _Elem=char,
+              _FwdIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Ty=std::string
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\algorithm(3187,1): error C2440: =: невозможно преобразовать "const _Ty" в "char"
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\algorithm(3187,24): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
